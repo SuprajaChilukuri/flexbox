@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using Flexbox</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			background: linear-gradient(45deg,#49a09d,#5f2c82);
+			background-size: 100%;
+			background-position: fixed;
+			font-family: sans-serif;
+			font-weight: 100;
+		}
+		#heading{
+			color: white;
+			text-align: center;
+			background-image: linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,0.8));
+		}
+		.info{
+			color: white;
+			text-align: center;
+		}
+		.container{
+			display: flex;	
+			flex-wrap: wrap;
+			justify-content: center;
+
+		}
+		.container img{
+			padding: 10px;
+			border: 1.5px solid white;
+			box-shadow: 2px 4px #E0FFFF;
+			transition: all 2s;
+		}
+		.container img:hover{
+			transform: skewX(-10deg);
+		}
+
+	</style>
+</head>
+<body>
+        <h1 id="heading">CSS Flexbox</h1>
+        <h2 class="info">NAME: Chilukuri Vara Sai Lakshmi Supraja</h2>
+        <h2 class="info">ROLL NUMBER: 1906149</h2>
+        <h2 align="center" style="color: white;"><u><i>Images</i></u></h2>
+        <div class="container" align="center">
+            <br><br>
+        
+        <img src="image1.jpg" width="250" height="300">
+        <img src="image2.jpg" width="250" height="300">
+        <img src="image3.jpg" width="250" height="300">
+        <img src="image4.jpg" width="250" height="300">
+        <img src="image6.jpg" width="250" height="300">
+        
+        </div>
+        
+    </body>
+</html>
